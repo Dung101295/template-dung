@@ -1,4 +1,4 @@
 node_modules
-htmldoc
-htmldoc/*
+build
+build/*
 vendor
