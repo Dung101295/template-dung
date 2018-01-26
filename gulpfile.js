@@ -41,8 +41,6 @@ gulp.task('js:components', function(){
    .pipe(gulp.dest('build/scripts/lib/components/'))
 });
 
-
-
 // gulp.task('default', [ 'html', 'css', 'css:libs', 'images', 'script', 'script:libs' ]);
 gulp.task('default', ['html', 'css', 'css:libs', 'css:components', 'js', 'js:lib', 'js:components' ]);
 gulp.task('build', [ 'clean', 'default']);
